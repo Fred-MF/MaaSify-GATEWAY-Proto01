@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr" class="h-full">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MaaSify GATEWAY — Accueil</title>
+    <script src="https://cdn.tailwindcss.com?plugins=typography" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,500,0,0"
+    />
+    <style>
+      body {
+        font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="h-full bg-slate-950 text-slate-100">
+    <main class="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950">
+      <div class="relative mx-auto flex min-h-screen max-w-6xl flex-col px-6 py-12">
+        <div class="mb-12 flex flex-col items-start justify-between gap-6 md:flex-row md:items-center">
+          <div>
+            <p class="text-sm uppercase tracking-[0.45em] text-slate-400">Portail MaaS</p>
+            <h1 class="mt-4 text-4xl font-semibold text-white sm:text-5xl">
+              MaaSify <span class="text-orange-400">GATEWAY</span>
+            </h1>
+            <p class="mt-4 max-w-2xl text-base text-slate-300">
+              Choisissez votre espace dédié pour piloter vos services numériques de mobilité et collaborer avec l'écosystème MaaS.
+            </p>
+          </div>
+          <div class="rounded-2xl border border-orange-500/30 bg-orange-500/10 px-6 py-4 backdrop-blur">
+            <p class="text-xs uppercase tracking-[0.35em] text-orange-200/80">Prototype</p>
+            <p class="mt-1 text-sm text-orange-100/90">
+              Accès restreint — démonstration des parcours utilisateurs clés.
+            </p>
+          </div>
+        </div>
+
+        <section class="grid flex-1 grid-cols-1 gap-6 md:grid-cols-3">
+          <article class="group rounded-3xl border border-slate-800/80 bg-slate-900/70 p-6 shadow-xl shadow-slate-950/40 transition hover:border-orange-400/60 hover:bg-slate-900/90">
+            <div class="flex items-center gap-3 text-orange-300">
+              <span class="material-symbols-rounded text-4xl">hub</span>
+              <h2 class="text-xl font-semibold text-white">Gestionnaire SNV</h2>
+            </div>
+            <p class="mt-4 text-sm text-slate-300">
+              Pilotez l'ouverture de votre système de vente, administrez les flux d'intégration et supervisez la conformité LOM.
+            </p>
+            <a
+              class="mt-8 inline-flex items-center justify-center gap-2 rounded-full border border-orange-400/60 bg-orange-500/20 px-5 py-2 text-sm font-medium text-orange-100 transition group-hover:bg-orange-500/30"
+              href="snv.html"
+            >
+              Accéder
+              <span class="material-symbols-rounded text-base">arrow_forward</span>
+            </a>
+          </article>
+
+          <article class="group rounded-3xl border border-slate-800/80 bg-slate-900/70 p-6 shadow-xl shadow-slate-950/40 transition hover:border-orange-400/60 hover:bg-slate-900/90">
+            <div class="flex items-center gap-3 text-orange-300">
+              <span class="material-symbols-rounded text-4xl">public</span>
+              <h2 class="text-xl font-semibold text-white">Fournisseur SNM</h2>
+            </div>
+            <p class="mt-4 text-sm text-slate-300">
+              Consultez le catalogue d'API, configurez vos intégrations et suivez les performances de vos services multimodaux.
+            </p>
+            <a
+              class="mt-8 inline-flex items-center justify-center gap-2 rounded-full border border-orange-400/60 bg-orange-500/20 px-5 py-2 text-sm font-medium text-orange-100 transition group-hover:bg-orange-500/30"
+              href="fsnm.html"
+            >
+              Accéder
+              <span class="material-symbols-rounded text-base">arrow_forward</span>
+            </a>
+          </article>
+
+          <article class="group rounded-3xl border border-slate-800/80 bg-slate-900/70 p-6 shadow-xl shadow-slate-950/40 transition hover:border-orange-400/60 hover:bg-slate-900/90">
+            <div class="flex items-center gap-3 text-orange-300">
+              <span class="material-symbols-rounded text-4xl">qr_code_scanner</span>
+              <h2 class="text-xl font-semibold text-white">Éditeur Billettique</h2>
+            </div>
+            <p class="mt-4 text-sm text-slate-300">
+              Gérez vos modules billettiques, publiez des offres et synchronisez vos données d'inventaire avec les partenaires.
+            </p>
+            <a
+              class="mt-8 inline-flex items-center justify-center gap-2 rounded-full border border-orange-400/60 bg-orange-500/20 px-5 py-2 text-sm font-medium text-orange-100 transition group-hover:bg-orange-500/30"
+              href="editor.html"
+            >
+              Accéder
+              <span class="material-symbols-rounded text-base">arrow_forward</span>
+            </a>
+          </article>
+        </section>
+
+        <footer class="mt-16 flex flex-col items-center justify-between gap-4 border-t border-slate-800/80 pt-6 text-xs text-slate-500 sm:flex-row">
+          <p>© 2024 MaaSify — Prototype confidentiel. Tous droits réservés.</p>
+          <p class="flex items-center gap-2 text-slate-500/80">
+            <span class="material-symbols-rounded text-base">lock</span>
+            Accès sécurisé
+          </p>
+        </footer>
+      </div>
+    </main>
+  </body>
+</html>
